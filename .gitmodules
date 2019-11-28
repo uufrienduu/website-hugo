@@ -1,3 +1,6 @@
 [submodule "hugo-theme-hello-friend"]
 	path = hugo-theme-hello-friend
 	url = https://github.com/panr/hugo-theme-hello-friend.git
+[submodule "themes/hugo-theme-yinyang"]
+	path = themes/hugo-theme-yinyang
+	url = https://github.com/joway/hugo-theme-yinyang.git
