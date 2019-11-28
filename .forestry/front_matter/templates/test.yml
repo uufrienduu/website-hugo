@@ -8,6 +8,10 @@ fields:
   config:
     required: false
   label: Title
+- name: tag
+  type: tag_list
+  default: []
+  label: Tag
 - name: time
   type: datetime
   label: Time
@@ -17,10 +21,6 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
-- name: tag
-  type: tag_list
-  default: []
-  label: Tag
 pages:
 - content/post/my-first-post.md
 - content/post/haha.md
