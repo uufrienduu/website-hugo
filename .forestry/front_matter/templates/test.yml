@@ -22,6 +22,6 @@ fields:
     time_format: 
     display_utc: false
 pages:
+- content/post/haha.md
 - content/post/pic.md
 - content/post/my-first-post.md
-- content/post/haha.md
