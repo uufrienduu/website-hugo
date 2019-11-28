@@ -7,7 +7,6 @@ sections:
 - type: document
   path: content/post/my-first-post
   label: My First Post
-  match: "**/*"
   read_only: true
 - type: heading
   label: test
