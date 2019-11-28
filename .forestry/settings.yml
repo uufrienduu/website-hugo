@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: content/post/my-first-post
+  label: My First Post
+  match: "**/*"
+  read_only: true
 - type: heading
   label: test
 - type: directory
