@@ -4,3 +4,12 @@
 [submodule "themes/hugo-theme-yinyang"]
 	path = themes/hugo-theme-yinyang
 	url = https://github.com/joway/hugo-theme-yinyang.git
+[submodule "themes/hugo-nuo"]
+	path = themes/hugo-nuo
+	url = https://github.com/laozhu/hugo-nuo.git
+[submodule "themes/hugo-theme-base16"]
+	path = themes/hugo-theme-base16
+	url = https://github.com/butlerx/hugo-theme-base16.git
+[submodule "themes/hugo-theme-terminal"]
+	path = themes/hugo-theme-terminal
+	url = https://github.com/panr/hugo-theme-terminal.git
