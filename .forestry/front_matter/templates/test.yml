@@ -12,3 +12,5 @@ fields:
       format: markdown
   label: test
   hidden: false
+pages:
+- content/post/haha.md
