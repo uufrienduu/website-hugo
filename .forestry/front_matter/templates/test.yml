@@ -2,6 +2,20 @@
 label: test
 hide_body: false
 fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: time
+  type: datetime
+  label: Time
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 - name: test
   type: textarea
   default: ''
