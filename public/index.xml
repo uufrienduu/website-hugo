@@ -1,40 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Terminal</title>
+    <title>佇遮</title>
     <link>https://tsia.netlify.com/</link>
-    <description>Recent content on Terminal</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content on 佇遮</description>
     <language>en-us</language>
     <lastBuildDate>Thu, 28 Nov 2019 15:26:25 +0000</lastBuildDate>
-    
-	<atom:link href="https://tsia.netlify.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://tsia.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>https://tsia.netlify.com/post/my-first-post/</link>
+      <title>Posts</title>
+      <link>https://tsia.netlify.com/post/</link>
       <pubDate>Thu, 28 Nov 2019 15:26:25 +0000</pubDate>
-      
-      <guid>https://tsia.netlify.com/post/my-first-post/</guid>
-      <description>hello world !</description>
-    </item>
-    
-    <item>
-      <title>haha</title>
-      <link>https://tsia.netlify.com/post/haha/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tsia.netlify.com/post/haha/</guid>
-      <description> Hello! </description>
-    </item>
-    
-    <item>
-      <title>pic</title>
-      <link>https://tsia.netlify.com/post/pic/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tsia.netlify.com/post/pic/</guid>
+      <guid>https://tsia.netlify.com/post/</guid>
       <description></description>
     </item>
     
