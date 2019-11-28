@@ -1,6 +1,6 @@
 ---
 label: test
-hide_body: false
+hide_body: true
 display_field: title
 fields:
 - name: title
@@ -22,6 +22,6 @@ fields:
     time_format: 
     display_utc: false
 pages:
-- content/post/pic.md
 - content/post/my-first-post.md
+- content/post/pic.md
 - content/post/haha.md
