@@ -21,4 +21,5 @@ fields:
   default: []
   label: Tag
 pages:
+- content/post/my-first-post.md
 - content/post/haha.md
