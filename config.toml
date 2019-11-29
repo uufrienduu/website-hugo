@@ -1,5 +1,5 @@
 baseURL = "https://tsia.netlify.com"
-theme = "hugo-theme-yinyang"
+theme = "docsy"
 title = "佇遮"
 author = "安"
 
