@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://tsia.netlify.com/</loc>
-    <lastmod>2019-11-28T15:26:25+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tsia.netlify.com/post/my-first-post/</loc>
     <lastmod>2019-11-28T15:26:25+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tsia.netlify.com/post/</loc>
+    <lastmod>2019-11-28T15:26:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tsia.netlify.com/</loc>
     <lastmod>2019-11-28T15:26:25+00:00</lastmod>
   </url>
   
