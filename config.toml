@@ -1,7 +1,7 @@
 baseURL = "https://tsia.netlify.com"
 title   = "佇遮"
-DefaultContentLanguage = "zh-tw"
-theme = "hugo-hello-friend-ng"
+DefaultContentLanguage = "en"
+theme = "hugo-theme-hello-friend-ng"
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 rssLimit  = 50  # Maximum number of items in the RSS feed.
