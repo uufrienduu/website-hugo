@@ -1,6 +1,8 @@
-baseURL = "https://tsia.netlify.com"
-theme = "docsy"
+baseURL= "https://tsia.netlify.com"
+theme = "hugo-theme-pure"
 title = "佇遮"
 author = "安"
-
-
+defaultContentLanguage = "zh"  # en/zh/...
+hasCJKLanguage = true
+paginate = 7
+enableEmoji = true
