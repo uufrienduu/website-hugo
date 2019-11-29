@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://tsia.netlify.com/post/my-first-post/</loc>
+    <lastmod>2019-11-28T15:26:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tsia.netlify.com/post/</loc>
+    <lastmod>2019-11-28T15:26:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tsia.netlify.com/</loc>
+    <lastmod>2019-11-28T15:26:25+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://tsia.netlify.com/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tsia.netlify.com/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://tsia.netlify.com/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://tsia.netlify.com/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tsia.netlify.com/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://tsia.netlify.com/post/haha/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tsia.netlify.com/post/pic/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tsia.netlify.com/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://tsia.netlify.com/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tsia.netlify.com/tags/"
+                />
+  </url>
+  
+</urlset>
