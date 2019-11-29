@@ -2,7 +2,7 @@
 baseURL = "https://tsia.netlify.com"
 languageCode = "zh-tw"
 title = "佇遮"  
-theme = "influencer-hugo"
+theme = "Influencer-hugo"
 summaryLength = "10"
 paginate = 6
 disqusShortname = ""
