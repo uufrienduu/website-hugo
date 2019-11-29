@@ -1,5 +1,6 @@
 baseURL = "https://tsia.netlify.com"
-languageCode = "zh-tw"
+theme = "hugo-nuo"
 title = "佇遮"
 author = "安"
-theme = "hugo-theme-cleanwhite"
+
+

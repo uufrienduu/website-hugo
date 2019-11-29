@@ -22,3 +22,9 @@
 [submodule "themes/hugo-theme-cleanwhite"]
 	path = themes/hugo-theme-cleanwhite
 	url = https://github.com/zhaohuabing/hugo-theme-cleanwhite.git
+[submodule "themes/hugo-theme-pure"]
+	path = themes/hugo-theme-pure
+	url = https://github.com/xiaoheiAh/hugo-theme-pure.git
+[submodule "themes/docsy"]
+	path = themes/docsy
+	url = https://github.com/google/docsy.git
