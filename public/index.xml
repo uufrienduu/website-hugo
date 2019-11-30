@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>佇遮</title>
-    <link>https://tsia.netlify.com/</link>
+    <link>http://localhost:8080/</link>
     <description>Recent content on 佇遮</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 29 Nov 2019 17:40:32 +0000</lastBuildDate>
     
-	<atom:link href="https://tsia.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:8080/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Test</title>
-      <link>https://tsia.netlify.com/posts/test/</link>
+      <link>http://localhost:8080/posts/test/</link>
       <pubDate>Fri, 29 Nov 2019 17:40:32 +0000</pubDate>
       
-      <guid>https://tsia.netlify.com/posts/test/</guid>
+      <guid>http://localhost:8080/posts/test/</guid>
       <description></description>
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>https://tsia.netlify.com/posts/my-first-post/</link>
+      <link>http://localhost:8080/posts/my-first-post/</link>
       <pubDate>Thu, 28 Nov 2019 15:26:25 +0000</pubDate>
       
-      <guid>https://tsia.netlify.com/posts/my-first-post/</guid>
+      <guid>http://localhost:8080/posts/my-first-post/</guid>
       <description>hello world !</description>
     </item>
     
     <item>
       <title>haha</title>
-      <link>https://tsia.netlify.com/posts/haha/</link>
+      <link>http://localhost:8080/posts/haha/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tsia.netlify.com/posts/haha/</guid>
+      <guid>http://localhost:8080/posts/haha/</guid>
       <description>Hello! adsfafffdsf</description>
     </item>
     
     <item>
       <title>pic</title>
-      <link>https://tsia.netlify.com/posts/pic/</link>
+      <link>http://localhost:8080/posts/pic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tsia.netlify.com/posts/pic/</guid>
+      <guid>http://localhost:8080/posts/pic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>test</title>
-      <link>https://tsia.netlify.com/test/</link>
+      <link>http://localhost:8080/test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tsia.netlify.com/test/</guid>
+      <guid>http://localhost:8080/test/</guid>
       <description>sdczddfdszvfvacfsdcsax 聽說是page </description>
     </item>
     
