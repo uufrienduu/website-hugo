@@ -8,10 +8,6 @@ fields:
   config:
     required: false
   label: Title
-- name: tag
-  type: tag_list
-  default: []
-  label: Tag
 - name: time
   type: datetime
   label: Time
@@ -21,6 +17,16 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+- name: author
+  type: text
+  config:
+    required: false
+  label: Author
+  default: ann
+- name: tag
+  type: tag_list
+  default: []
+  label: Tag
 pages:
 - content/posts/196fd.md
 - content/test.md
