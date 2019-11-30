@@ -4,11 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: directory
-  path: ''
-  label: posts
-  create: all
-  match: "**/*"
 - type: heading
   label: test
 - type: directory
@@ -17,7 +12,7 @@ sections:
   create: all
   match: "*"
 - type: directory
-  path: content/post
+  path: content/posts
   label: Post
   create: all
   match: "**/*"
