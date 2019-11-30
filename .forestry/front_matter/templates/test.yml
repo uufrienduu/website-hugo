@@ -22,5 +22,6 @@ fields:
     time_format: 
     display_utc: false
 pages:
-- content/posts/haya.md
+- content/posts/196fd.md
 - content/test.md
+- content/posts/haya.md
