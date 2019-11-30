@@ -1,90 +1,48 @@
-DefaultContentLanguage = "en"
-PygmentsCodeFences = true
-PygmentsStyle = "monokai"
-archetypeDir = "archetypes"
-baseURL = "https://tsia.netlify.com"
-buildDrafts = false
-buildExpored = false
-buildFuture = false
-canonifyURLs = true
-contentDir = "content"
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-dataDir = "data"
-disable404 = false
-disableHugoGeneratorInject = false
-disableRSS = false
-disableSitemap = false
-enableEmoji = true
-enableGitInfo = false
-enableMissingTranslationPlaceholders = false
-enableRobotsTXT = true
-layoutDir = "layouts"
-publishDir = "public"
-rssLimit = 10
-theme = "hugo-theme-hello-friend-ng"
-title = "佇遮"
-[author]
-name = "安"
-[blackfriday]
-hrefTargetBlank = true
-[languages.en]
-copyright = "<a href=\"https://creativecommons.org/licenses/by-nc/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-NC 4.0</a>"
-subtitle = "Hello Friend NG Theme"
-weight = 1
-[languages.fr]
-copyright = "<a href=\"https://creativecommons.org/licenses/by-nc/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-NC 4.0</a>"
-subtitle = "Hello Friend NG Theme"
-weight = 2
-[[menu.main]]
-identifier = "posts"
-name = "Posts"
-url = "posts/"
-weight = 1
-[[menu.main]]
-identifier = "about"
-name = "About"
-url = "about/"
-weight = 2
+baseurl = "https://tsia.netlify.com"
+languageCode = "en-us"
+theme = "hugo-theme-hello-friend"
+paginate = 5
+
 [params]
-contentTypeName = "posts"
-customCSS = []
-customJS = []
-dateform = "Jan 2, 2006"
-dateformNum = "2006-01-02"
-dateformNumTime = "2006-01-02 15:04 -0700"
-dateformShort = "Jan 2"
-defaultTheme = "dark"
-description = "Nice theme for homepages and blogs"
-disableReadOtherPosts = false
-homeSubtitle = "Hello Friend NG"
-images = [""]
-justifyContent = false
-keywords = ""
-themeColor = "#252627"
-[params.favicon.color]
-mask = "#252627"
-msapplication = "#252627"
-theme = "#252627"
-[params.logo]
-logoHomeLink = "/"
-logoText = "$ cd /home/"
-[[params.social]]
-name = "twitter"
-url = "https://twitter.com/"
-[[params.social]]
-name = "email"
-url = "mailto:nobody@example.com"
-[[params.social]]
-name = "github"
-url = "https://github.com/"
-[[params.social]]
-name = "linkedin"
-url = "https://www.linkedin.com/"
-[[params.social]]
-name = "stackoverflow"
-url = "https://www.stackoverflow.com/"
-[permalinks]
-posts = "/posts/:year/:month/:title/"
-[taxonomies]
-category = "categories"
-tag = "tags"
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = "post"
+  # "light" or "dark"
+  defaultTheme = "dark"
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 2
+  # Enable to show reading time in minutes for posts
+  showReadingTime = false
+
+[languages]
+  [languages.en]
+    title = "佇遮"
+    subtitle = "A simple theme for Hugo"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    writtenBy = "Written by"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
+
+    [languages.en.params.logo]
+      logoText = "hello friend"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"

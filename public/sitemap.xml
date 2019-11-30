@@ -1,16 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>https://tsia.netlify.com/en/sitemap.xml</loc>
-		
-	   	<lastmod>2019-11-28T15:26:25+00:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://tsia.netlify.com/fr/sitemap.xml</loc>
-		
-	</sitemap>
-	
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://tsia.netlify.com/posts/</loc>
+    <lastmod>2019-11-29T17:40:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tsia.netlify.com/posts/test/</loc>
+    <lastmod>2019-11-29T17:40:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tsia.netlify.com/</loc>
+    <lastmod>2019-11-29T17:40:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tsia.netlify.com/posts/my-first-post/</loc>
+    <lastmod>2019-11-28T15:26:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tsia.netlify.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tsia.netlify.com/posts/haha/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tsia.netlify.com/posts/pic/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tsia.netlify.com/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tsia.netlify.com/test/</loc>
+  </url>
+  
+</urlset>
