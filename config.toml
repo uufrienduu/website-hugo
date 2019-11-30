@@ -1,127 +1,83 @@
-baseURL = "https://tsia.netlify.com"
-theme = "hugo-theme-hello-friend-ng"
-title = "佇遮"
-
 DefaultContentLanguage = "en"
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
-
-rssLimit  = 100  # Maximum number of items in the RSS feed.
-
-# googleAnalytics = ""
-# disqusShortname = ""
-
 archetypeDir = "archetypes"
-contentDir   = "content"
-dataDir      = "data"
-layoutDir    = "layouts"
-publishDir   = "public"
-
-buildDrafts  = false
-buildFuture  = false
+baseURL = "https://tsia.netlify.com"
+buildDrafts = false
 buildExpored = false
+buildFuture = false
 canonifyURLs = true
-
-enableRobotsTXT = true
-enableGitInfo   = false
-enableEmoji     = true
-enableMissingTranslationPlaceholders = false
-disableRSS     = false
-disableSitemap = false
-disable404     = false
+contentDir = "content"
+dataDir = "data"
+disable404 = false
 disableHugoGeneratorInject = false
-
-[permalinks]
-  posts = "/posts/:year/:month/:title/"
-
+disableRSS = false
+disableSitemap = false
+enableEmoji = true
+enableGitInfo = false
+enableMissingTranslationPlaceholders = false
+enableRobotsTXT = true
+layoutDir = "layouts"
+publishDir = "public"
+rssLimit = 100
+theme = "hugo-theme-hello-friend-ng"
+title = "佇遮"
 [author]
-  name = "ann"
-
+name = "ann"
 [blackfriday]
-  hrefTargetBlank = true
-
-[taxonomies]
-  tag      = "tags"
-  category = "categories"
-
+hrefTargetBlank = true
+[languages.en]
+subtitle = "Hello Friend NG Theme"
+weight = 1
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "about/"
+weight = 3
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "posts/"
+weight = 2
+[[menu.main]]
+identifier = "meo"
+name = "meo"
+url = "test/"
+weight = 1
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
-
-  # Metadata mostly used in document's head
-  description = "Nice theme for homepages and blogs"
-  keywords = ""
-  images = [""]
-
-  homeSubtitle = "Hello Friend"
-
-  # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  # gitUrl = ""
-
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
-
-  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
-  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
-  customCSS = []
-  customJS  = []
-
-  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
-  justifyContent = false  # Set "text-align: justify" to .content.
-
-  # Directory name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
-
-  # Default theme "light" or "dark"
-  defaultTheme = "dark"
-  themeColor = "#0c69c7"
-
-  # Colors for favicons
-  [params.favicon.color]
-    mask = "#0c69c7"
-    msapplication = "#0c69c7"
-    theme = "#0c69c7"
-
-  [params.logo]
-    logoText     = "$ cd /home/"
-    logoHomeLink = "/"
-    # Set to a valid CSS color to change the cursor in the logo.
-    # logoColor    = "#1f8f21"
-
-  # Social icons
-  [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/"
-
-  [[params.social]]
-    name = "email"
-    url  = "mailto:nobody@example.com"
-
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/"
-
-
-[languages]
-  [languages.en]
-    subtitle  = "Hello Friend NG Theme"
-    weight    = 1
-
-
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "about/"
-  [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "posts/"
-  [[menu.main]]
-    identifier = "meo"
-    name       = "meo"
-    url        = "test/"
-
-
+contentTypeName = "posts"
+customCSS = []
+customJS = []
+dateform = "Jan 2, 2006"
+dateformNum = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04 -0700"
+dateformShort = "Jan 2"
+defaultTheme = "dark"
+description = "Nice theme for homepages and blogs"
+disableReadOtherPosts = false
+homeSubtitle = "Hello Friend"
+images = [""]
+justifyContent = false
+keywords = ""
+themeColor = "#0c69c7"
+[params.favicon.color]
+mask = "#0c69c7"
+msapplication = "#0c69c7"
+theme = "#0c69c7"
+[params.logo]
+logoHomeLink = "/"
+logoText = "$ cd /home/"
+[[params.social]]
+name = "twitter"
+url = "https://twitter.com/"
+[[params.social]]
+name = "email"
+url = "mailto:nobody@example.com"
+[[params.social]]
+name = "github"
+url = "https://github.com/"
+[permalinks]
+posts = "/posts/:year/:month/:title/"
+[taxonomies]
+category = "categories"
+tag = "tags"
