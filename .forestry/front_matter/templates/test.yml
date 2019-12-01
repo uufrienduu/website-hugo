@@ -29,8 +29,8 @@ fields:
   default: []
   label: Tag
 pages:
-- content/posts/adf.md
 - content/posts/196fd.md
+- content/posts/adf.md
 - content/posts/haya.md
 - content/posts/afdcfsd.md
 - content/test.md
