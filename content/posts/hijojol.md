@@ -1,10 +1,9 @@
 ---
-title: "Hijojol"
-date: 2019-12-01T09:27:30+08:00
-draft: true
+title: Hijojol
+date: 2019-12-01T01:27:30.000+00:00
 toc: false
-images:
+images: 
 tags:
-  - untagged
----
+- untagged
 
+---
