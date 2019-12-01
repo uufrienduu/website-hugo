@@ -2,7 +2,6 @@ baseURL = "https://tsia.netlify.com"
 theme = "hugo-theme-hello-friend-ng"
 title = "佇遮"
 DefaultContentLanguage = "en"
-metaDataFormat = "toml"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
