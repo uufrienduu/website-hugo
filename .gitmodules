@@ -52,9 +52,6 @@
 [submodule "hugo-theme-hello-friend-ng"]
 	path = hugo-theme-hello-friend-ng
 	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
-[submodule "themes/hugo-theme-minos"]
-	path = themes/hugo-theme-minos
-	url = https://github.com/carsonip/hugo-theme-minos.git
 [submodule "themes/hugo-future-imperfect"]
 	path = themes/hugo-future-imperfect
 	url = https://github.com/jpescador/hugo-future-imperfect.git
