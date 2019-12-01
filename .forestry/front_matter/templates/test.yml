@@ -15,9 +15,9 @@ fields:
   config:
     required: false
     date_format: 
-    time_format: '1979-05-26T15:32:00+08:00 '
+    time_format: ''
     display_utc: false
-    export_format: YYYY /DD/MMTh:mm:ss+08:00
+    export_format: YYYY /DD/MMThh:mm:ss+08:00
 - name: author
   type: text
   config:
