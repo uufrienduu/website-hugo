@@ -40,7 +40,7 @@ googleAnalytics = ""
 
 [[menu.main]]
     url = "/categories"
-    name = "categories"
+    name = "Categories"
     weight = 5
 
 
@@ -48,27 +48,45 @@ googleAnalytics = ""
 # The "name" field should match the name of the icon in Font Awesome.
 # The list of available icons can be found at http://fontawesome.io/icons.
 
+   
 [[menu.icon]]
     url = "mailto:me@example.com"
     name = "envelope-o"
     weight = 1
 
 [[menu.icon]]
-    url = "https://github.com/username/"
-    name = "github"
+    url = "https://twitter.com/username/"
+    name = "twitter"
     weight = 2
 
 [[menu.icon]]
-    url = "https://twitter.com/username/"
-    name = "twitter"
+    url = "https://github.com/username/"
+    name = "github"
     weight = 3
 
 [[menu.icon]]
-    url = "https://www.linkedin.com/in/username/"
-    name = "linkedin"
+    url = "https://facebook.com/username"
+        name = "facebook"
     weight = 4
+
+[[menu.icon]]
+    url = "https://www.instagram.com/username"
+    name = "instagram"
+    weight = 5
+
+[[menu.icon]]
+    url = "https://www.youtube.com/channel/username"
+    name = "youtube"
+    weight = 6
+
+[[menu.icon]]
+    url = "https://medium.com/@username"
+    name = "medium"
+    weight = 7
 
 [[menu.icon]]
     url = "https://www.stackoverflow.com/username/"
     name = "stack-overflow"
-    weight = 5
+    weight = 8
+
+
