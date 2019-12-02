@@ -1,5 +1,5 @@
 baseURL = "https://tsia.netlify.com"
-theme = "Minimal"
+theme = "minimal"
 title = "佇遮"
 languageCode = "en"     
 
