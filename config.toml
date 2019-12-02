@@ -1,90 +1,135 @@
 baseURL = "https://tsia.netlify.com"
-theme = "minimal"
+theme = "hugo-theme-hello-friend-ng"
 title = "佇遮"
-languageCode = "en"     
+DefaultContentLanguage = "en"
 
-disqusShortname = "username" # delete this to disable disqus comments
-googleAnalytics = ""
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpored = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "Jane Doe"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
 
 [params]
-    author = "Calin Tataru"
-    description = "Personal blog theme powered by Hugo"
-    githubUsername = "#"
-    accent = "red"
-    showBorder = true
-    backgroundColor = "white"
-    font = "Raleway" # should match the name on Google Fonts!
-    highlight = true
-    highlightStyle = "default"
-    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
 
-[[menu.main]]
-    url = "/"
-    name = "Home"
-    weight = 1
+  # Metadata mostly used in document's head
+  description = "Nice theme for homepages and blogs"
+  keywords = ""
+  images = [""]
 
-[[menu.main]]
-    url = "/about/"
-    name = "About"
-    weight = 2
+  homeSubtitle = "Hello Friend NG"
 
-[[menu.main]]
-    url = "/posts/"
-    name = "Posts"
-    weight = 3
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  # gitUrl = ""
 
-[[menu.main]]
-  url = "/tags"
-  name = "Tags"
-  weight = 4
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
 
-[[menu.main]]
-    url = "/categories"
-    name = "Categories"
-    weight = 5
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  customCSS = []
+  customJS  = []
 
+  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+  justifyContent = false  # Set "text-align: justify" to .content.
 
-# Social icons to be shown on the right-hand side of the navigation bar.
-# The "name" field should match the name of the icon in Font Awesome.
-# The list of available icons can be found at http://fontawesome.io/icons.
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
 
-   
-[[menu.icon]]
-    url = "mailto:me@example.com"
-    name = "envelope-o"
-    weight = 1
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+  themeColor = "#252627"
 
-[[menu.icon]]
-    url = "https://twitter.com/username/"
+  # Colors for favicons
+  [params.favicon.color]
+    mask = "#252627"
+    msapplication = "#252627"
+    theme = "#252627"
+
+  [params.logo]
+    logoText     = "$ cd /home/"
+    logoHomeLink = "/"
+    # Set to a valid CSS color to change the cursor in the logo.
+    # logoColor    = "#67a2c9"
+
+  # Social icons
+  [[params.social]]
     name = "twitter"
-    weight = 2
+    url  = "https://twitter.com/"
 
-[[menu.icon]]
-    url = "https://github.com/username/"
+  [[params.social]]
+    name = "email"
+    url  = "mailto:nobody@example.com"
+
+  [[params.social]]
     name = "github"
-    weight = 3
+    url  = "https://github.com/"
 
-[[menu.icon]]
-    url = "https://facebook.com/username"
-        name = "facebook"
-    weight = 4
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/"
 
-[[menu.icon]]
-    url = "https://www.instagram.com/username"
-    name = "instagram"
-    weight = 5
+  [[params.social]]
+    name = "stackoverflow"
+    url  = "https://www.stackoverflow.com/"
 
-[[menu.icon]]
-    url = "https://www.youtube.com/channel/username"
-    name = "youtube"
-    weight = 6
+[languages]
+  [languages.en]
+    subtitle  = "Hello Friend NG Theme"
+    weight    = 1
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-[[menu.icon]]
-    url = "https://medium.com/@username"
-    name = "medium"
-    weight = 7
+  [languages.fr]
+    subtitle  = "Hello Friend NG Theme"
+    weight    = 2
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-[[menu.icon]]
-    url = "https://www.stackoverflow.com/username/"
-    name = "stack-overflow"
-    weight = 8
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"

@@ -36,14 +36,15 @@
 
   .post {
     &-title {
-      font-size: 1rem;
+      font-size: 1.5em;
       margin: 5px 0 5px 0;
+      color: #1f8f21;
     }
 
     &-year {
       padding-top: 6px;
       margin-right: 1.8em;
-      font-size: 1.6em;
+      font-size: 1.5em;
       @include dimmed;
 
       @media #{$media-size-tablet} {
@@ -55,11 +56,11 @@
       border-bottom: 1px grey dashed;
 
       a {
+        padding: 0px 0px;
+        text-decoration: none;
         display: flex;
         justify-content: space-between;
         align-items: baseline;
-        padding: 12px 0;
-        text-decoration: none;
       }
     }
 
